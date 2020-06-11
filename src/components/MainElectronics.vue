@@ -120,6 +120,8 @@ export default {
 			text-align: center;
 			width: 100%;
 			height: 40px;
+			padding: 5px;
+			padding-top: 10px;
 			.price {
 				color: #d2136d;
 			}

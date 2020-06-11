@@ -4,7 +4,7 @@
 			<h3>إلكترونيات</h3>
 			<hr>
 			<div class="row justify-content-around">
-				<div class="col-md">
+				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
 							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
@@ -14,7 +14,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
 							<img src="../../assets/imgs/tablet.png" class="card-img-top" alt="headphone">
@@ -24,7 +24,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
 							<img src="../../assets/imgs/laptop.png" class="card-img-top" alt="headphone">
@@ -34,7 +34,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
 							<img src="../../assets/imgs/iphone.png" class="card-img-top" alt="headphone">

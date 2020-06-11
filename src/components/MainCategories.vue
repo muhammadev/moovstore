@@ -2,35 +2,43 @@
 	<div class="main-categos">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg">
-					<div class="main-category">
-						<div class="details">
-							<p>اكسسوارات</p>
-							<h1>خصم % 50</h1>
+				<div class="col-md">
+					<div class="row">
+						<div class="col-lg">
+							<div class="main-category">
+								<div class="details">
+									<p>اكسسوارات</p>
+									<h1>خصم % 50</h1>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="main-category clothes-tools">
+								<div class="details">
+									<p>اكسسوارات</p>
+									<h1>خصم % 50</h1>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg">
-					<div class="main-category clothes-tools">
-						<div class="details">
-							<p>اكسسوارات</p>
-							<h1>خصم % 50</h1>
+				<div class="col-md">
+					<div class="row">
+						<div class="col-lg">
+							<div class="main-category leather-bag">
+								<div class="details">
+									<p>اكسسوارات</p>
+									<h1>خصم % 50</h1>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-lg">
-					<div class="main-category leather-bag">
-						<div class="details">
-							<p>اكسسوارات</p>
-							<h1>خصم % 50</h1>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg">
-					<div class="main-category clean-tools">
-						<div class="details">
-							<p>اكسسوارات</p>
-							<h1>خصم % 50</h1>
+						<div class="col-lg">
+							<div class="main-category clean-tools">
+								<div class="details">
+									<p>اكسسوارات</p>
+									<h1>خصم % 50</h1>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -49,6 +57,7 @@ export default {
 .main-category {
 	width: 100%;
 	height: 360px;
+	margin: 10px 0;
 	background: url("../assets/imgs/accesories.jpg") center/cover no-repeat;
 	position: relative;
 	overflow: hidden;

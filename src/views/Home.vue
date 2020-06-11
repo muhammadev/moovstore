@@ -7,15 +7,15 @@
     <MainElectronics />
     <div class="container flags">
       <div class="row">
-        <div class="col-lg-4 flag">
+        <div class="col-md flag">
           <p>أفضل سعر مضمون</p>
           <i class="fas fa-ticket-alt"></i>
         </div>
-        <div class="col-lg-4 flag">
+        <div class="col-md flag">
           <p>دعم ٢٤ ساعة / ٧ أيام</p>
           <i class="fas fa-retweet"></i>
         </div>
-        <div class="col-lg-4 flag">
+        <div class="col-md flag">
           <p>دفع آمن ٪١٠٠</p>
           <i class="fab fa-cc-visa"></i>
         </div>
@@ -26,7 +26,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import AppHeader from "@/components/AppHeader.vue";
 import MainOffer from "@/components/MainOffer.vue";
 import MainStore from "@/components/MainStore.vue";
@@ -55,14 +54,15 @@ export default {
       justify-content: space-between;
       .flag {
         padding: 20px;
-        width: 400px; height: 80px;
+        min-width: 300px; height: 80px;
+        margin: 10px;
         line-height: 2;
         max-width: unset !important;
-        flex: unset !important;
+        // flex: unset !important;
         background: linear-gradient(180deg, rgba(189,17,68,1) 25%, rgba(74,46,118,1) 100%, rgba(246,254,253,1) 100%);
         color: #eee;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         p {
           display: inline;
           margin: 0 20px;

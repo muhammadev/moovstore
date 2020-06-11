@@ -4,52 +4,52 @@
 		<hr>
 		<div class="card product">
 			<div class="row no-gutters">
-				<div class="col-md-8 product-details">
+				<div class="col-8 product-details">
 					<div class="card-body">
 						<p class="product-name">عنوان المنتج يعرض هنا</p>
 						<p class="card-text price">ريال 250.00</p>
 					</div>
 				</div>
-				<div class="col-md-4 product-img">
+				<div class="col product-img">
 					<img src="../../../assets/imgs/iron.png" class="iron" alt="iron">
 				</div>
 			</div>
 		</div>
 		<div class="card product">
 			<div class="row no-gutters">
-				<div class="col-md-8 product-details">
+				<div class="col-8 product-details">
 					<div class="card-body">
 						<p class="product-name">عنوان المنتج يعرض هنا</p>
 						<p class="card-text price">ريال 250.00</p>
 					</div>
 				</div>
-				<div class="col-md-4 product-img">
+				<div class="col product-img">
 					<img src="../../../assets/imgs/iphone.png" class="iron" alt="iron">
 				</div>
 			</div>
 		</div>
 		<div class="card product">
 			<div class="row no-gutters">
-				<div class="col-md-8 product-details">
+				<div class="col-8 product-details">
 					<div class="card-body">
 						<p class="product-name">عنوان المنتج يعرض هنا</p>
 						<p class="card-text price">ريال 250.00</p>
 					</div>
 				</div>
-				<div class="col-md-4 product-img">
+				<div class="col product-img">
 					<img src="../../../assets/imgs/headphone.png" class="iron" alt="iron">
 				</div>
 			</div>
 		</div>
 		<div class="card product">
 			<div class="row no-gutters">
-				<div class="col-md-8 product-details">
+				<div class="col-8 product-details">
 					<div class="card-body">
 						<p class="product-name">عنوان المنتج يعرض هنا</p>
 						<p class="card-text price">ريال 250.00</p>
 					</div>
 				</div>
-				<div class="col-md-4 product-img">
+				<div class="col product-img">
 					<img src="../../../assets/imgs/laptop.png" class="iron" alt="iron">
 				</div>
 			</div>
@@ -101,12 +101,13 @@ export default {
 					}
 				}
 				.product-img {
-					height: 100%;
+					height: auto;
 					display: flex;
 					align-items: center;
+					justify-content: center;
 					img {
 						position: absolute;
-						width: 100%;
+						width: 100px;
 						
 					}
 				}

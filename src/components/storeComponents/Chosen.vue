@@ -4,7 +4,7 @@
 			<h3>اخترنا لك</h3>
 			<hr>
 			<div class="row justify-content-around">
-				<div class="col-md">
+				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
@@ -16,7 +16,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
@@ -28,7 +28,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
@@ -40,7 +40,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">

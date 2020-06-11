@@ -25,18 +25,23 @@ export default {
 
 <style lang="scss" scoped>
 .btm-header {
-  min-height: 55px;
-  height: auto;
+  //min-height: 70px;
+  padding: 10px 0;
   background: #222;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #eee;
-  width: 100%;
   .text-holder {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
     .topic {
-      padding: 10px;
+      min-width: 50px;
+      display: inline-block;
       line-height: 2.5;
-      float: right;
+      margin: 0 10px;
+      //float: right;
       a {
         color: #eee;
         &:hover {

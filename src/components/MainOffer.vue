@@ -2,10 +2,10 @@
   <div class="main-offer">
   	<div class="container">
 	  	<div class="row">
-		  	<div class="product-img col-6">
+		  	<div class="product-img col-md">
 		  		<img src="@/assets/imgs/iphonex.png" alt="" />
 		  	</div>
-		  	<div class="product-details col-6">
+		  	<div class="product-details col-md">
 		  		<h1>IPhone <strong>X</strong></h1>
 		  		<h5>احصل عليه الآن بخصم يصل إلي <strong>%20</strong></h5>
 		  		<button class="btn btn-default">تسوق الآن</button>
@@ -23,7 +23,8 @@ export default {
 
 <style lang="scss" scoped>
 .main-offer {
-	height: 400px;
+	height: auto;
+	padding: 30px 0;
 	background: #f7f6fc;
 	border-bottom: 1px solid #ccc;
 	.container {
@@ -32,7 +33,7 @@ export default {
 			height: 100%;
 			align-items: center;
 			.product-img {
-				text-align: end;
+				text-align: center;
 			}
 			.product-details {
 				text-align: center;

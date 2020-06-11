@@ -1,27 +1,27 @@
 <template>
   <div class="mid-header">
     <div class="row align-items-center">
-      <div class="shoping-cart col-xl-2 order-sm-3 order-xl-1">
+      <div class="shoping-cart col-xl-2 order-3 order-xl-1">
         <i class="fas fa-shopping-cart"></i>
         <a href="#">عربة التسوق</a>
       </div>
-      <div class="search col-xl-7 justify-self-center order-sm-2">
-        <a href="#">
-          <div class="menu">
-            جميع الفئات
-          </div>
-        </a>
+      <div class="search col-xl-7 order-2">
+        <button type="submit" class="btn btn-search">
+          <i class="fas fa-search"></i>
+        </button>
         <input
           class="search-field"
           type="text"
           placeholder="ابحث في الأقسام الخاصة بنا"
           required
         />
-        <button type="submit" class="btn btn-search">
-          <i class="fas fa-search"></i>
-        </button>
+        <a href="#">
+          <div class="menu">
+            جميع الفئات
+          </div>
+        </a>
       </div>
-      <div class="logo col-xl-3 order-sm-1 order-xl-3">
+      <div class="logo col-xl-3 order-1 order-xl-3">
         <img src="@/assets/imgs/moov_sticky.webp" alt="" />
       </div>
     </div>
@@ -51,14 +51,18 @@ export default {
       position: relative;
       border: 1px solid #ccc;
       height: 40px;
+      display: flex;
+      padding: 0;
       * {
         height: 100%;
       }
       .menu {
-        position: absolute;
-        display: inline-block;
+        position: relative;
+        //display: inline-block;
         width: 15%;
-        // background: #eee;
+        min-width: 120px;
+        flex-grow: 1;
+        font-size: 15px;
         text-align: end;
         padding-right: 10px;
         right: 0;
@@ -82,24 +86,26 @@ export default {
         }
       }
       .search-field {
-        position: absolute;
-        width: 80%;
-        right: 15%;
+        //position: absolute;
+        min-width: 130px;
+        flex-grow: 2;
+        //right: 15%;
         text-align: end;
         outline: none;
         border: none;
         padding-right: 10px;
       }
       .btn-search {
-        position: absolute;
-        left: 0;
-        width: 5%;
+        //position: absolute;
+        //left: 0;
+        min-width: 40px;
+        flex-grow: 0.2;
         border: none;
         border-radius: 0;
         line-height: 2;
         color: #eee;
         background: linear-gradient(180deg, rgba(189,17,68,1) 25%, rgba(74,46,118,1) 100%, rgba(246,254,253,1) 100%);
-        &::after {
+        /*&::after {
           content: "";
           position: absolute;
           top: 33%;
@@ -108,7 +114,7 @@ export default {
           border: medium solid #4a2e76;
           border-width: 5px 0px 5px 5px;
           border-color: transparent transparent transparent #4a2e76;
-        }
+        }*/
       }
     }
     .logo {
