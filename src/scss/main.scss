@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500&display=swap');
+@import "./reset";
+
+body{
+  font-family: 'Tajawal', sans-serif;
+  .container {
+    max-width: 95% !important;
+    h3 {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 70px;
+        height: 8px;
+        background: #333;
+        right: 0;
+        bottom: -20px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #101010;
+    &:hover {
+      color: #d2136d;
+      text-decoration: none;
+    }
+  }
+}

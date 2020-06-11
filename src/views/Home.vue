@@ -1,18 +1,74 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <AppHeader />
+    <MainOffer />
+    <MainStore />
+    <MainCategories />
+    <MainElectronics />
+    <div class="container flags">
+      <div class="row">
+        <div class="col-lg-4 flag">
+          <p>أفضل سعر مضمون</p>
+          <i class="fas fa-ticket-alt"></i>
+        </div>
+        <div class="col-lg-4 flag">
+          <p>دعم ٢٤ ساعة / ٧ أيام</p>
+          <i class="fas fa-retweet"></i>
+        </div>
+        <div class="col-lg-4 flag">
+          <p>دفع آمن ٪١٠٠</p>
+          <i class="fab fa-cc-visa"></i>
+        </div>
+      </div>
+    </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import AppHeader from "@/components/AppHeader.vue";
+import MainOffer from "@/components/MainOffer.vue";
+import MainStore from "@/components/MainStore.vue";
+import MainCategories from "@/components/MainCategories.vue";
+import MainElectronics from "@/components/MainElectronics.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    AppHeader,
+    MainOffer,
+    MainStore,
+    MainCategories,
+    MainElectronics,
+    Footer
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.home {
+  .flags {
+    margin-top: 30px;
+    .row {
+      justify-content: space-between;
+      .flag {
+        padding: 20px;
+        width: 400px; height: 80px;
+        line-height: 2;
+        max-width: unset !important;
+        flex: unset !important;
+        background: linear-gradient(180deg, rgba(189,17,68,1) 25%, rgba(74,46,118,1) 100%, rgba(246,254,253,1) 100%);
+        color: #eee;
+        text-align: center;
+        font-size: 25px;
+        p {
+          display: inline;
+          margin: 0 20px;
+        }
+      }
+    }
+  }
+}
+</style>
