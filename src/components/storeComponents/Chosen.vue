@@ -112,6 +112,7 @@ export default {
 			    height: 100%;
 			    bottom: -15px;
 			    object-fit: contain;
+			    transition: .3s ease;
 		    }
 		}
 		.card-body {
@@ -120,6 +121,11 @@ export default {
 			height: 40px;
 			.price {
 				color: #d2136d;
+			}
+		}
+		&:hover {
+			img {
+				transform: scale(1.1);
 			}
 		}
 	}
