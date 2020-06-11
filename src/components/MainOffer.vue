@@ -60,10 +60,13 @@ export default {
 					}
 				}
 				button {
-					background: linear-gradient(180deg, rgba(189,17,68,1) 25%, rgba(74,46,118,1) 100%, rgba(246,254,253,1) 100%);
+					background: linear-gradient(180deg, #4a2e76, #bd1144 100%, #f6fefd 100%);
 					color: #eee;
 					font-size: 20px;
 					border-radius: unset;
+					&:focus {
+						box-shadow: none;
+					}
 				}
 			}
 		}

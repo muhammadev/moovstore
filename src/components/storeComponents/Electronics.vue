@@ -17,30 +17,30 @@
 				<div class="col-md">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/tablet.png" class="card-img-top" alt="headphone">
 						</div>
 						<div class="card-body">
-							<p class="title">سماعات</p>
+							<p class="title">تابليت</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/laptop.png" class="card-img-top" alt="headphone">
 						</div>
 						<div class="card-body">
-							<p class="title">سماعات</p>
+							<p class="title">لابتوب</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/iphone.png" class="card-img-top" alt="headphone">
 						</div>
 						<div class="card-body">
-							<p class="title">سماعات</p>
+							<p class="title">جوالات</p>
 						</div>
 					</div>
 				</div>
@@ -65,16 +65,18 @@ export default {
 		width: unset !important;
 		margin: 15px 0;
 		.product-img {
-			height: 150px;
+			height: 120px;
 			position: relative;
 			display: flex;
 			justify-content: center;
+			align-items: center;
 			background: #F7F6FC;
+			cursor: pointer;
 			img {
 				position: relative;
-				width: 70%;
-				height: 100%;
-				object-fit: cover;
+				width: 60%;
+				height: 85%;
+				object-fit: contain;
 			}
 		}
 		.card-body {
@@ -84,6 +86,11 @@ export default {
 			line-height: 0;
 			background: #333;
 			color: #eee;
+		}
+		&:hover {
+			.card-body {
+				background: linear-gradient(180deg, #bd1144 25%, #4a2e76 100%, #f6fefd 100%);
+			}
 		}
 	}
 }

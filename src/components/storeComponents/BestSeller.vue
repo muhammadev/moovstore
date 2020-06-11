@@ -20,7 +20,7 @@
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/printer.png" class="card-img-top" alt="printer">
 						</div>
 						<div class="card-body">
 								<p class="card-text">عنوان المنتج يعرض هنا</p>
@@ -32,7 +32,7 @@
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/tablet.png" class="card-img-top" alt="tablet">
 						</div>
 						<div class="card-body">
 								<p class="card-text">عنوان المنتج يعرض هنا</p>
@@ -44,7 +44,7 @@
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/laptop.png" class="card-img-top" alt="laptop">
 						</div>
 						<div class="card-body">
 								<p class="card-text">عنوان المنتج يعرض هنا</p>
@@ -58,7 +58,7 @@
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/laptop.png" class="card-img-top" alt="laptop">
 						</div>
 						<div class="card-body">
 								<p class="card-text">عنوان المنتج يعرض هنا</p>
@@ -70,7 +70,7 @@
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/tablet.png" class="card-img-top" alt="tablet">
 						</div>
 						<div class="card-body">
 								<p class="card-text">عنوان المنتج يعرض هنا</p>
@@ -82,7 +82,7 @@
 					<div class="card product" style="width: 18rem;">
 						<span class="new">جديد</span>
 						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/printer.png" class="card-img-top" alt="printer">
 						</div>
 						<div class="card-body">
 								<p class="card-text">عنوان المنتج يعرض هنا</p>
@@ -122,7 +122,7 @@ export default {
 	margin: 35px 0 !important;
 	.product {
 		width: unset !important;
-		height: 250px;
+		height: 230px;
 		margin: 15px 0;
 		span.new {
 			position: absolute;
@@ -153,16 +153,17 @@ export default {
 			}
 		}
 		.product-img {
-			height: 150px;
+			height: 130px;
 			position: relative;
 			display: flex;
 			justify-content: center;
 			img {
 				position: relative;
-				width: 70%;
-				height: 100%;
-				object-fit: cover;
-			}
+			    width: 60%;
+			    height: 100%;
+			    bottom: -15px;
+			    object-fit: contain;
+		    }
 		}
 		.card-body {
 			text-align: center;

@@ -11,7 +11,7 @@
 					</div>
 				</div>
 				<div class="col-lg">
-					<div class="main-category">
+					<div class="main-category clothes-tools">
 						<div class="details">
 							<p>اكسسوارات</p>
 							<h1>خصم % 50</h1>
@@ -19,7 +19,7 @@
 					</div>
 				</div>
 				<div class="col-lg">
-					<div class="main-category">
+					<div class="main-category leather-bag">
 						<div class="details">
 							<p>اكسسوارات</p>
 							<h1>خصم % 50</h1>
@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<div class="col-lg">
-					<div class="main-category">
+					<div class="main-category clean-tools">
 						<div class="details">
 							<p>اكسسوارات</p>
 							<h1>خصم % 50</h1>
@@ -89,5 +89,14 @@ export default {
 			}
 		}
 	}
+}
+.clean-tools {
+	background: url("../assets/imgs/clean-tools.jpg") center/cover no-repeat;
+}
+.leather-bag {
+	background: url("../assets/imgs/leather-bag.jpg") center/cover no-repeat;	
+}
+.clothes-tools {
+	background: url("../assets/imgs/clothes-tools.jpg") center/cover no-repeat;	
 }
 </style>

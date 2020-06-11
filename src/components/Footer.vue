@@ -147,7 +147,6 @@ footer{
 		}
 		.snapchat:hover {
 			background: #fffc00;
-			color: #333;
 		}
 	}
 	.app-badges {

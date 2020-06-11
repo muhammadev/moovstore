@@ -3,10 +3,14 @@
         <div class="container">
             <div class="row">
                 <div class="add col-lg">
-                    <img src="../../assets/imgs/collection1.jpg" alt="">
+                    <a href="#">
+                        <img src="../../assets/imgs/collection1.jpg" alt="">
+                    </a>
                 </div>
                 <div class="add col-lg">
-                    <img src="../../assets/imgs/collection2.jpg" alt="">
+                    <a href="#">
+                        <img src="../../assets/imgs/collection2.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
