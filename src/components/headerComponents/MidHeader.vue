@@ -99,7 +99,7 @@ export default {
         //position: absolute;
         //left: 0;
         min-width: 40px;
-        flex-grow: 0.2;
+        flex-grow: 0.1;
         border: none;
         border-radius: 0;
         line-height: 2;
