@@ -36,6 +36,7 @@ export default {
     width: 100%;
     overflow: auto;
     white-space: nowrap;
+    text-align: center;
     .topic {
       min-width: 50px;
       display: inline-block;
