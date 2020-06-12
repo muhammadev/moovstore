@@ -67,8 +67,7 @@ export default {
 .chosen {
 	width: 100%; height: auto;
 	text-align: end;
-	padding-right: 15px;
-	padding-top: 15px;
+	margin-top: 15px;
 	.product {
 		width: unset !important;
 		height: 230px;

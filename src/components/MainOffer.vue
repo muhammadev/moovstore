@@ -73,4 +73,12 @@ export default {
 		}
 	}
 }
+
+@media screen and (max-width: 450px) {
+	.product-img {
+		img {
+			width: 100%;
+		}
+	}
+}
 </style>
