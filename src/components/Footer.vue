@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col col-xl-3 order-5">
+        <div class="col-md col-xl-3 order-md-5">
           <h3>نبذة عنا</h3>
 			<div class="text-holder">
 				<p class="about"> لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه</p>
@@ -30,7 +30,7 @@
 			</div>
           </div>
         </div>
-        <div class="col order-4">
+        <div class="col-md order-md-4">
 			<h3>الأقسام</h3>
 			<ul>
 				<a href="#"><li>من نحن</li></a>
@@ -41,7 +41,7 @@
 				<a href="#"><li>أسئلة وأجوبة</li></a>
 			</ul>
         </div>
-        <div class="col order-3">
+        <div class="col-md order-md-3">
 			<h3>الحساب الشخصي</h3>
 			<ul>
 				<a href="#"><li>من نحن</li></a>
@@ -52,7 +52,7 @@
 				<a href="#"><li>أسئلة وأجوبة</li></a>
 			</ul>
         </div>
-        <div class="col order-2">
+        <div class="col-md order-md-2">
 			<h3>معلومات</h3>
 			<ul>
 				<a href="#"><li>من نحن</li></a>
@@ -63,7 +63,7 @@
 				<a href="#"><li>أسئلة وأجوبة</li></a>
 			</ul>
         </div>
-        <div class="col order-1 apps">
+        <div class="col-md order-md-1 apps">
             <h3>لتحميل التطبيق</h3>
 			<div class="app-badges">
 				<img src="@/assets/imgs/appstore.png" alt="" />
@@ -91,101 +91,91 @@ footer{
 	background: #333;
 	color: #eee;
 	text-align: end;
-	h3 {
-		font-size: 20px !important;
-		&::after {
-			background: #d2136d !important;
-		}
-	}
-	.text-holder {
-		margin-top: 70px;
-		.about {
-			font-size: 15px;
-		}
-		.tel,.mail {
-			font-size: 12px;
-			display: flex;
-			justify-content: flex-end;
-			margin: 15px 0;
-			a {
-				margin-right: 15px;
-			}
-		}
-	}
-	ul {
-		margin-top: 70px;
-		li {
-			margin: 10px 0;
-		}
-	}
-	a {
-		color: #eee;
-	}
-	.social-media {
-		& > * {
-			margin-left: 15px;
-			width: 30px;
-			height: 30px;
-			background: #eee;
-			color: #333;
-			text-align: center;
-			line-height: 2.5;
-			float: right;
-			cursor: pointer;
-			&:hover {
-				color: #eee;
-			}
-		}
-		.facebook:hover {
-			background:  #3b5998;
-		}
-		.twitter:hover {
-			background:  #00aced;
-		}
-		.instagram:hover {
-			background: #E1306C;
-		}
-		.snapchat:hover {
-			background: #fffc00;
-		}
-	}
-	.app-badges {
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-end;
-		& > img {
-			width: 150px;
-			margin: 10px 0;
-			cursor: pointer;
-		}
-	}
-	.copywrite {
-		text-align: center;
-	}
-}
-
-@media screen and (max-width: 779px) {
 	.container {
 		.row {
 			& > * {
-				display: none;
+				margin: 15px 0;
 			}
-			.apps {
-				display: block;
-				text-align: center;
-				h3 {
-					&::after {
-						margin-right: 40%;
+			h3 {
+				font-size: 20px !important;
+				&::after {
+					background: #d2136d !important;
+				}
+			}
+			.text-holder {
+				margin-top: 70px;
+				.about {
+					font-size: 15px;
+				}
+				.tel,.mail {
+					font-size: 12px;
+					display: flex;
+					justify-content: flex-end;
+					margin: 15px 0;
+					a {
+						margin-right: 15px;
 					}
 				}
-				.app-badges {
-					align-items: center;
+			}
+			ul {
+				margin-top: 70px;
+				li {
+					margin: 10px 0;
 				}
+			}
+			a {
+				color: #eee;
+			}
+			.social-media {
+				& > * {
+					margin-left: 15px;
+					width: 30px;
+					height: 30px;
+					background: #eee;
+					color: #333;
+					text-align: center;
+					line-height: 2.5;
+					float: right;
+					cursor: pointer;
+					&:hover {
+						color: #eee;
+					}
+				}
+				.facebook:hover {
+					background:  #3b5998;
+				}
+				.twitter:hover {
+					background:  #00aced;
+				}
+				.instagram:hover {
+					background: #E1306C;
+				}
+				.snapchat:hover {
+					background: #fffc00;
+				}
+			}
+			.app-badges {
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: flex-end;
+				& > img {
+					width: 150px;
+					margin: 10px 0;
+					cursor: pointer;
+				}
+			}
+			.copywrite {
+				text-align: center;
 			}
 		}
 	}
 }
 
+@media screen and (max-width: 767px) {
+	footer {
+		padding: 10px 0;
+	}
+}
 </style>
