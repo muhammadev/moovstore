@@ -11,7 +11,7 @@
 					</div>
 				</div>
 				<div class="col product-img">
-					<img src="../../../assets/imgs/iron.png" class="iron" alt="iron">
+					<img src="../../../assets/imgs/iron.png" alt="iron">
 				</div>
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 					</div>
 				</div>
 				<div class="col product-img">
-					<img src="../../../assets/imgs/iphone.png" class="iron" alt="iron">
+					<img src="../../../assets/imgs/iphone.png" alt="iphone">
 				</div>
 			</div>
 		</div>
@@ -37,7 +37,7 @@
 					</div>
 				</div>
 				<div class="col product-img">
-					<img src="../../../assets/imgs/headphone.png" class="iron" alt="iron">
+					<img src="../../../assets/imgs/headphone.png" alt="headphone">
 				</div>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 					</div>
 				</div>
 				<div class="col product-img">
-					<img src="../../../assets/imgs/laptop.png" class="iron" alt="iron">
+					<img src="../../../assets/imgs/laptop.png" alt="laptop">
 				</div>
 			</div>
 		</div>

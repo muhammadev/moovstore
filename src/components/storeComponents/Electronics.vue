@@ -17,7 +17,7 @@
 				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
-							<img src="../../assets/imgs/tablet.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/tablet.png" class="card-img-top" alt="tablet">
 						</div>
 						<div class="card-body">
 							<p class="title">تابليت</p>
@@ -27,7 +27,7 @@
 				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
-							<img src="../../assets/imgs/laptop.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/laptop.png" class="card-img-top" alt="laptop">
 						</div>
 						<div class="card-body">
 							<p class="title">لابتوب</p>
@@ -37,7 +37,7 @@
 				<div class="col-lg">
 					<div class="card product" style="width: 18rem;">
 						<div class="product-img">
-							<img src="../../assets/imgs/iphone.png" class="card-img-top" alt="headphone">
+							<img src="../../assets/imgs/iphone.png" class="card-img-top" alt="iphone">
 						</div>
 						<div class="card-body">
 							<p class="title">جوالات</p>
