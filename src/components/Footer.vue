@@ -177,9 +177,9 @@ footer{
 					cursor: pointer;
 				}
 			}
-			.copywrite {
-				text-align: center;
-			}
+		}
+		.copywrite {
+			text-align: center;
 		}
 	}
 }

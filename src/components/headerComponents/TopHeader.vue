@@ -100,7 +100,8 @@ export default {
     .container {
       .row {
         .left-sec {
-          padding: 5px;
+          padding: 0 !important;
+          padding-top: 5px !important;
         }
         .right-sec {
           min-width: unset !important;
