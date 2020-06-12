@@ -2,74 +2,82 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md col-xl-3 order-md-5">
-          <h3>نبذة عنا</h3>
-			<div class="text-holder">
-				<p class="about"> لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه</p>
-				<div class="tel">
-					<a href="tel:966-195745 5814 99452">966-195745 5814 99452 | 966-714522 4215 42157</a>
-					<i class="fas fa-phone-alt"></i>
-				</div>
-				<div class="mail">
-					<a href="mailto:Admin@domainname.com">Admin@domainname.com</a>
-					<i class="far fa-envelope"></i>
-				</div>
-				<div class="social-media">
-					<p class="facebook">
-						<i class="fab fa-facebook-f"></i>
-					</p>
-					<p class="twitter">
-						<i class="fab fa-twitter"></i>
-					</p>
-					<p class="instagram">
-						<i class="fab fa-instagram"></i>
-					</p>
-					<p class="snapchat">
-						<i class="fab fa-snapchat-ghost"></i>
-					</p>
-			</div>
-          </div>
-        </div>
-        <div class="col-md order-md-4">
-			<h3>الأقسام</h3>
-			<ul>
-				<a href="#"><li>من نحن</li></a>
-				<a href="#"><li>منتجاتنا</li></a>
-				<a href="#"><li>العلامات التجارية</li></a>
-				<a href="#"><li>الشركات التابعة</li></a>
-				<a href="#"><li>العروض الخاصة</li></a>
-				<a href="#"><li>أسئلة وأجوبة</li></a>
-			</ul>
-        </div>
-        <div class="col-md order-md-3">
-			<h3>الحساب الشخصي</h3>
-			<ul>
-				<a href="#"><li>من نحن</li></a>
-				<a href="#"><li>منتجاتنا</li></a>
-				<a href="#"><li>العلامات التجارية</li></a>
-				<a href="#"><li>الشركات التابعة</li></a>
-				<a href="#"><li>العروض الخاصة</li></a>
-				<a href="#"><li>أسئلة وأجوبة</li></a>
-			</ul>
-        </div>
-        <div class="col-md order-md-2">
-			<h3>معلومات</h3>
-			<ul>
-				<a href="#"><li>من نحن</li></a>
-				<a href="#"><li>منتجاتنا</li></a>
-				<a href="#"><li>العلامات التجارية</li></a>
-				<a href="#"><li>الشركات التابعة</li></a>
-				<a href="#"><li>العروض الخاصة</li></a>
-				<a href="#"><li>أسئلة وأجوبة</li></a>
-			</ul>
-        </div>
-        <div class="col-md order-md-1 apps">
-            <h3>لتحميل التطبيق</h3>
-			<div class="app-badges">
-				<img src="@/assets/imgs/appstore.png" alt="" />
-				<img src="@/assets/imgs/googleplay.png" alt="" />
-			</div>
-        </div>
+       	<div class="col-xl-8 order-xl-2">
+       		<div class="row">
+	 					<div class="col-md-6 order-md-5">
+		          <h3>نبذة عنا</h3>
+							<div class="text-holder">
+								<p class="about"> لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه</p>
+								<div class="tel">
+									<a href="tel:966-195745 5814 99452">966-195745 5814 99452 | 966-714522 4215 42157</a>
+									<i class="fas fa-phone-alt"></i>
+								</div>
+								<div class="mail">
+									<a href="mailto:Admin@domainname.com">Admin@domainname.com</a>
+									<i class="far fa-envelope"></i>
+								</div>
+								<div class="social-media">
+									<p class="facebook">
+										<i class="fab fa-facebook-f"></i>
+									</p>
+									<p class="twitter">
+										<i class="fab fa-twitter"></i>
+									</p>
+									<p class="instagram">
+										<i class="fab fa-instagram"></i>
+									</p>
+									<p class="snapchat">
+										<i class="fab fa-snapchat-ghost"></i>
+									</p>
+								</div>
+		      		</div>
+		        </div>
+		        <div class="col-md-3 order-md-4">
+							<h3>الأقسام</h3>
+							<ul>
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">منتجاتنا</a></li>
+								<li><a href="#">العلامات التجارية</a></li>
+								<li><a href="#">الشركات التابعة</a></li>
+								<li><a href="#">العروض الخاصة</a></li>
+								<li><a href="#">أسئلة وأجوبة</a></li>
+							</ul>
+		        </div>
+		        <div class="col-md-3 order-md-3">
+							<h3>الحساب الشخصي</h3>
+							<ul>
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">منتجاتنا</a></li>
+								<li><a href="#">العلامات التجارية</a></li>
+								<li><a href="#">الشركات التابعة</a></li>
+								<li><a href="#">العروض الخاصة</a></li>
+								<li><a href="#">أسئلة وأجوبة</a></li>
+							</ul>
+		        </div>
+       		</div>
+       	</div>
+       	<div class="col-xl-4 order-xl-1">
+       		<div class="row">
+		        <div class="col-md order-md-2">
+							<h3>معلومات</h3>
+							<ul>
+								<li><a href="#">من نحن</a></li>
+								<li><a href="#">منتجاتنا</a></li>
+								<li><a href="#">العلامات التجارية</a></li>
+								<li><a href="#">الشركات التابعة</a></li>
+								<li><a href="#">العروض الخاصة</a></li>
+								<li><a href="#">أسئلة وأجوبة</a></li>
+							</ul>
+		        </div>
+		        <div class="col-md order-md-1 apps">
+		          <h3>لتحميل التطبيق</h3>
+							<div class="app-badges">
+								<img src="@/assets/imgs/appstore.png" alt="" />
+								<img src="@/assets/imgs/googleplay.png" alt="" />
+							</div>
+		        </div>
+       		</div>
+       	</div>
       </div>
 			<hr>
 			<p class="copywrite"> &copy; جميع الحقوق محفوظة لموف ستور ٢٠٢٠</p>
@@ -125,6 +133,9 @@ footer{
 			}
 			a {
 				color: #eee;
+				&:hover {
+					color: #d2136d;
+				}
 			}
 			.social-media {
 				& > * {
