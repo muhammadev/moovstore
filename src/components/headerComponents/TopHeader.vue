@@ -19,8 +19,10 @@
           </div>
         </div>
         <div class="right-sec col-12 col-xl-7">
-          <div class="menu-icon">القائمة</div>
-          <div class="text-holder">
+          <div @click="showMenu" class="menu-icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="text-holder" :class="{opened: opened}">
             <div class="header-link">
               <a href="#">الأقسام</a>
             </div>
@@ -49,6 +51,21 @@
 <script>
 export default {
   name: "TopHeader",
+  data: function() {
+    return {
+      opened: false
+    }
+  },
+  mounted() {
+    this.$on("showMenu", function() {
+      this.opened = !this.opened;
+    })
+  },
+  methods: {
+    showMenu() {
+      this.$emit("showMenu")
+    }
+  }
 };
 </script>
 
@@ -102,40 +119,53 @@ export default {
         .left-sec {
           padding: 0 !important;
           padding-top: 5px !important;
+          text-align: start;
+          .text-holder {
+            padding-right: 0px;
+            .header-link {
+              padding: 5px;
+            }
+          }
         }
         .right-sec {
           min-width: unset !important;
-          height: auto;
+          height: 0;
+          text-align: end;
           * {
             float: unset;
           }
           .menu-icon {
-            display: block;
-            background: #eee;
-            text-align: end;
-            padding: 10px;
-            position: relative;
-            &::before {
-              content: "\f107";
-              position: relative;
-              font-family: "fontawesome";
-              left: -5px;
-              color: #666;
-              line-height: 2.3;
-              top: 2px;
-            }
+            display: inline-block;
+            width: 50px;
+            padding: 10px 20px;
+            line-height: 2;
+            position: absolute;
+            top: -50px; right: -8px;
+            cursor: pointer;
           }
           .text-holder {
-            height: auto;
+            width: 100%; height: 0px;
             display: block;
+            overflow: hidden;
+            transition: .3s ease;
+            background: #eee;
+            margin-bottom: 10px;
+            position: absolute;
+            left: 0;
+            z-index: 10000;
             & > * {
               width: auto; height: 30px;
               margin: 15px 0;
               display: block;
-              background: #eee;
               line-height: 1;
               text-align: end;
+              a {
+                font-size: 15px;
+              }
             }
+          }
+          .opened {
+            height: 300px !important;
           }
         }
       }

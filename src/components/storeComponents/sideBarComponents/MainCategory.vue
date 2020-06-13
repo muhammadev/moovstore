@@ -23,12 +23,15 @@ export default {
 	cursor: pointer;
 	.details {
 		position: absolute;
-		width: 100%; height: 100%;
-		bottom: -65%;
+		width: 100%; height: 150px;
+		bottom: 0;
 		background: rgba(255, 255, 255, 0.9);
 		text-align: end;
 		padding: 15px;
 		transition: .3s ease;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		h1 {
 			transition: .3s ease;
 			position: relative;
@@ -45,13 +48,14 @@ export default {
 			}
 		}
 	}
-	&:hover .details {
-		bottom: 0;
-		padding-top: 50%;
-		h1 {
-			font-size: 50px;
-			&::after {
-				width: 100px;
+	&:hover {
+		.details {
+			height: 100%;
+			h1 {
+				font-size: 40px;
+				&::after {
+					width: 100px;
+				}
 			}
 		}
 	}

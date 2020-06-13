@@ -4,51 +4,59 @@
 			<h3>اخترنا لك</h3>
 			<hr>
 			<div class="row justify-content-around">
-				<div class="col-lg">
-					<div class="card product" style="width: 18rem;">
-						<span class="new">جديد</span>
-						<div class="product-img">
-							<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+				<div class="col-md">
+					<div class="row">
+						<div class="col-xl">
+							<div class="card product" style="width: 18rem;">
+								<span class="new">جديد</span>
+								<div class="product-img">
+									<img src="../../assets/imgs/headphone.png" class="card-img-top" alt="headphone">
+								</div>
+								<div class="card-body">
+										<p class="card-text">عنوان المنتج يعرض هنا</p>
+										<p class="price">ريال 250.00</p>
+								</div>
+							</div>
 						</div>
-						<div class="card-body">
-								<p class="card-text">عنوان المنتج يعرض هنا</p>
-								<p class="price">ريال 250.00</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg">
-					<div class="card product" style="width: 18rem;">
-						<span class="new">جديد</span>
-						<div class="product-img">
-							<img src="../../assets/imgs/iphone.png" class="card-img-top" alt="iphone">
-						</div>
-						<div class="card-body">
-								<p class="card-text">عنوان المنتج يعرض هنا</p>
-								<p class="price">ريال 250.00</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg">
-					<div class="card product" style="width: 18rem;">
-						<span class="new">جديد</span>
-						<div class="product-img">
-							<img src="../../assets/imgs/tablet.png" class="card-img-top" alt="tablet">
-						</div>
-						<div class="card-body">
-								<p class="card-text">عنوان المنتج يعرض هنا</p>
-								<p class="price">ريال 250.00</p>
+						<div class="col-xl">
+							<div class="card product" style="width: 18rem;">
+								<span class="new">جديد</span>
+								<div class="product-img">
+									<img src="../../assets/imgs/iphone.png" class="card-img-top" alt="iphone">
+								</div>
+								<div class="card-body">
+										<p class="card-text">عنوان المنتج يعرض هنا</p>
+										<p class="price">ريال 250.00</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg">
-					<div class="card product" style="width: 18rem;">
-						<span class="new">جديد</span>
-						<div class="product-img">
-							<img src="../../assets/imgs/iron.png" class="card-img-top" alt="iron">
+				<div class="col-md">
+					<div class="row">
+						<div class="col-xl">
+							<div class="card product" style="width: 18rem;">
+								<span class="new">جديد</span>
+								<div class="product-img">
+									<img src="../../assets/imgs/tablet.png" class="card-img-top" alt="tablet">
+								</div>
+								<div class="card-body">
+										<p class="card-text">عنوان المنتج يعرض هنا</p>
+										<p class="price">ريال 250.00</p>
+								</div>
+							</div>
 						</div>
-						<div class="card-body">
-								<p class="card-text">عنوان المنتج يعرض هنا</p>
-								<p class="price">ريال 250.00</p>
+						<div class="col-xl">
+							<div class="card product" style="width: 18rem;">
+								<span class="new">جديد</span>
+								<div class="product-img">
+									<img src="../../assets/imgs/iron.png" class="card-img-top" alt="iron">
+								</div>
+								<div class="card-body">
+										<p class="card-text">عنوان المنتج يعرض هنا</p>
+										<p class="price">ريال 250.00</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -70,7 +78,7 @@ export default {
 	margin-top: 15px;
 	.product {
 		width: unset !important;
-		height: 230px;
+		height: auto;
 		margin: 15px 0;
 		span.new {
 			position: absolute;
@@ -101,14 +109,15 @@ export default {
 			}
 		}
 		.product-img {
-			height: 130px;
+			height: auto;
+			padding-top: 10px;
 			position: relative;
 			display: flex;
 			justify-content: center;
 			img {
 				position: relative;
 			    width: 60%;
-			    height: 100%;
+			    height: 130px;
 			    bottom: -15px;
 			    object-fit: contain;
 			    transition: .3s ease;
@@ -117,7 +126,9 @@ export default {
 		.card-body {
 			text-align: center;
 			width: 100%;
-			height: 40px;
+			height: auto;
+			padding: 0;
+			padding-top: 20px;
 			.price {
 				color: #d2136d;
 			}

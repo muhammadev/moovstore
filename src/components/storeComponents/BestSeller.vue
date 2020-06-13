@@ -122,7 +122,7 @@ export default {
 	margin: 35px 0 !important;
 	.product {
 		width: unset !important;
-		height: 230px;
+		height: auto;
 		margin: 15px 0;
 		span.new {
 			position: absolute;
@@ -169,7 +169,9 @@ export default {
 		.card-body {
 			text-align: center;
 			width: 100%;
-			height: 40px;
+			height: auto;
+			padding: 0;
+			padding-top: 10px;
 			.price {
 				color: #d2136d;
 			}

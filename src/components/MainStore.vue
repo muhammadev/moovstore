@@ -2,13 +2,13 @@
   <div class="main-store">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9 col-sm-8">
+        <div class="col-lg-9 col-md-8">
 					<Electronics />
 					<Chosen />
 					<Ads />
 					<BestSeller />
 				</div>
-        <div class="col-lg-3 col-sm-4">
+        <div class="col-lg-3 col-md-4">
           <SideBar />
         </div>
       </div>
