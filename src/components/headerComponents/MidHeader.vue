@@ -138,4 +138,15 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .search-field {
+    font-size: 13px !important;
+  }
+  .menu {
+    min-width: 100px !important;
+    font-size: 13px !important;
+    line-height: 3;
+  }
+}
 </style>
